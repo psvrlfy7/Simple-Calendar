@@ -1,0 +1,123 @@
+body{
+    background: #dfdf76;
+}
+.calendar{
+    background-color: #29323F;
+    text-align: center;
+    width: 30%;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid;
+    margin: 0 auto;
+    position: relative;
+
+}
+.center-text{
+    text-align: center;
+    margin: 0 3px 10px 3px;
+}
+.month .button1 {
+    border: 0;
+    background-color: transparent;
+    color: gray;
+    padding: 3px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.month .button1:hover {
+    padding: 3px;
+    cursor: pointer;
+    background-color: #c1baba;
+}
+.month .button2 {
+    border: 0;
+    background-color: transparent;
+    color: gray;
+    padding: 3px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.month .button2:hover {
+    padding: 3px;
+    cursor: pointer;
+    background-color: #c1baba;
+}
+.day{
+    text-align: center;
+    color: white;
+}
+.month .center-text {
+    color: #d6d63c;
+
+}
+.close button {
+    border: 0;
+    background-color: #d6d63c;
+    color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 95%;
+    margin-top: 3px;
+    width: 10px;
+    height: 10px;
+    font-size: 8px;
+    padding: 0px;
+    margin-left: 3px;
+}
+.close button:hover {
+    background-color: #7c7c05;
+    color: black;
+}
+
+.day {
+    display:flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+table {
+    color: white;
+    margin: 0 auto;
+}
+
+td, th {
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+}
+
+td:hover{
+    color: #000000;
+
+}
+
+tr td:first-child, tr td:last-child {
+    color: #d6d63c;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+tr td:first-child:hover, tr td:last-child:hover {
+    color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.time{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+
+
+}
