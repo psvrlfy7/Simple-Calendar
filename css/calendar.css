@@ -6,11 +6,9 @@ body{
     text-align: center;
     width: 30%;
     border-radius: 5px;
-    border-color: black;
-    border: 1px solid;
+    border: 1px solid black;
     margin: 0 auto;
     position: relative;
-
 }
 .center-text{
     text-align: center;
@@ -50,7 +48,6 @@ body{
 }
 .month .center-text {
     color: #d6d63c;
-
 }
 .close button {
     border: 0;
@@ -63,30 +60,25 @@ body{
     width: 10px;
     height: 10px;
     font-size: 8px;
-    padding: 0px;
+    padding: 0;
     margin-left: 3px;
 }
 .close button:hover {
     background-color: #7c7c05;
     color: black;
 }
-
 .day {
     display:flex;
     justify-content: space-between;
     padding: 0 100px;
 }
-
 ul {
     list-style-type: none;
-
 }
-
 table {
     color: white;
     margin: 0 auto;
 }
-
 td, th {
     padding: 10px;
     cursor: pointer;
@@ -94,30 +86,22 @@ td, th {
     width: 25px;
     height: 25px;
 }
-
 td:hover{
     color: #000000;
-
 }
-
 tr td:first-child, tr td:last-child {
     color: #d6d63c;
     border-radius: 50%;
     cursor: pointer;
-
 }
 tr td:first-child:hover, tr td:last-child:hover {
     color: grey;
     border-radius: 50%;
     cursor: pointer;
-
 }
-
-.time{
+.time {
     position: absolute;
     right: 10px;
     top: 10px;
     color: white;
-
-
 }
